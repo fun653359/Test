@@ -19,12 +19,9 @@
 # else:
 #     print("못했어요")
 
-count = 10
+def double_number():
+    count = int(input("제곱할 수를 입력하세요"))
+    num = int(input("몇번 제곱할건지 정하세요"))
+    print(count ** num)
 
-def count_number():
-    global count
-    count = 20
-    print(count)
-
-count_number()
-print(count)
+double_number()

@@ -22,9 +22,6 @@ class birth(학생):
             print("생신축하드려요")
         else:
             print("생신이 아니네요...아쉬워요")
-a = 학생("홍정현",17,10621,"5050")
-'''if __name__ == "__main__":'''
-
-b = birth("홍정현",17,10621,"5050")
-a.introduce()
-b.find_birth("5050")
+b = birth("금재준",17,20602,"0516")
+b.introduce()
+b.find_birth("0516")
